@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {    int arr[9],team1=0, team2=0,i;
+        for (int i = 1; i <= 10; i++)
+        {
+            int arr[i];
+            if (i % 2 != 0)
+            {
+                cin >> arr[i];
+                if (arr[i] == 1)
+                {
+                    team1++;
+                }
+            }
+            else if(i % 2 == 0){
+            cin >> arr[i];
+            if (arr[i] == 1)
+            {
+                team2++;
+            }}
+        }
+        if (team1 > team2)
+        {
+            cout << 1 << endl;
+        }
+        else if (team1 == team2)
+        {
+            cout << 0 << endl;
+        }
+        else
+        {
+            cout << 2 << endl;
+        }
+    }
+    return 0;
+}
