@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,a,b,ans;
+	    cin>>x>>a>>b;
+	    ans=(a+(100-x)*b)*10;
+	    cout<<ans<<endl;
+	    
+	}
+	
+	return 0;
+}
