@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int p,m,v,MaxDist;
+	    cin>>p>>m>>v;
+	    MaxDist= (m-(p-1))*v;
+	    cout<<MaxDist<<endl;
+	}
+	return 0;
+}
