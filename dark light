@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    
+    for(int i=0;i<n;i++){
+        int m,k;
+        cin>>m>>k;
+        
+        if(k==1){
+            if(m%4==0) cout<<"ON"<<"\n";
+            else   cout<<"Ambiguous"<<"\n";
+        }
+        else{
+            if(m%4==0) cout<<"OFF"<<"\n";
+            else cout<<"ON"<<"\n";
+        }
+    }
+	// your code goes here
+	return 0;
+}
