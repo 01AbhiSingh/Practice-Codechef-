@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int u,v,a,s,ans;
+	    cin>>u>>v>>a>>s;
+	    ans=((u*u)-(2*a*s));
+	    if(ans<=v*v){
+	        cout<<"yes"<<endl;
+	    }
+	    else{
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
