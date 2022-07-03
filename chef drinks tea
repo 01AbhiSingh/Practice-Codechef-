@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    int tea=x/y;
+	    int t;
+	    if(x%y==0){
+	        t=tea;
+	    }
+	    else{
+	        t=tea+1;
+	    }
+	    cout<<t*z<<endl;
+	    
+	}
+	return 0;
+}
